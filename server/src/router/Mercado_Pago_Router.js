@@ -10,7 +10,7 @@ mercadopago.configure({
   access_token: process.env.ACCESS_TOKE || "",
 });
 
-// Manejo de solicitud POST asingcorna 
+// Manejo de solicitud POST asincrona 
 Mercado_Pago.post("/", async (req, res) => {
   const producto = req.body;
 
